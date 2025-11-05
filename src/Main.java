@@ -7,6 +7,8 @@ void main(){
    // System.out.println("Entrer nom ");
     //String nom  = input.next();
     //System.out.println("Bonjour, Sara ! " + nom);
+
+
     //2
     //Scanner input = new Scanner(System.in);
    // System.out.println("Entrer un nombre ");
@@ -47,29 +49,53 @@ void main(){
 
 
 
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+//        Scanner scanner = new Scanner(System.in);
+//        Random random = new Random();
+//
+//        int nombreSecret = random.nextInt(10) + 1;
+//        int tentative;
+//
+//        System.out.println("Devinez le nombre entre 1 et 10 :");
+//
+//        do {
+//            System.out.print("Votre proposition : ");
+//            tentative = scanner.nextInt();
+//
+//            if (tentative < nombreSecret) {
+//                System.out.println("Trop petit !");
+//            } else if (tentative > nombreSecret) {
+//                System.out.println("Trop grand !");
+//            } else {
+//                System.out.println("Bravo ! Vous avez trouvé le bon nombre.");
+//            }
+//        } while (tentative != nombreSecret);
+//
+//        scanner.close();
+//    }
 
-        int nombreSecret = random.nextInt(10) + 1; // Génère un nombre entre 1 et 10
-        int tentative;
+//    Scanner input = new Scanner(System.in);
+//    int[] table = {4, 9, 1, 7, 3};
+//    int max = 0;
+//    int deuxiememax = 0;
+//    for(int i=0; i<table.length; i++){
+//
+//        if(table[i]>max){
+//          max=table[i];}
+//        if(table[i] < deuxiememax){
+//            deuxiememax=table[i];
+//        }
+//    }
+//    System.out.println(deuxiememax);
+//    }
 
-        System.out.println("Devinez le nombre entre 1 et 10 :");
 
-        do {
-            System.out.print("Votre proposition : ");
-            tentative = scanner.nextInt();
+    Scanner input = new Scanner(System.in);
+    int [] tab = {1, 2, 3, 4, 5};
+    for(int i=tab.length-1;i>=0;i--){
 
-            if (tentative < nombreSecret) {
-                System.out.println("Trop petit !");
-            } else if (tentative > nombreSecret) {
-                System.out.println("Trop grand !");
-            } else {
-                System.out.println("Bravo ! Vous avez trouvé le bon nombre.");
-            }
-        } while (tentative != nombreSecret);
-
-        scanner.close();
     }
+    }
+
 
 
 
